@@ -1,0 +1,14 @@
+@"
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.DS_Store
+resume_report.md
+*.pdf
+"@ | Set-Content .gitignore
